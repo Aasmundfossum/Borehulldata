@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8f1fd552e3d93098911c38807c290e03 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_8f1fd552e3d93098911c38807c290e03" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_8f1fd552e3d93098911c38807c290e03 = L.map(
+                "map_8f1fd552e3d93098911c38807c290e03",
+                {
+                    center: [65.0, 18.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: false,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_729129f4f4100bfee706e6f8949873b7 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_8f1fd552e3d93098911c38807c290e03);
+        
+    
+            var marker_5c9ed13919bccc2440f8428e344543b7 = L.marker(
+                [71.0, 2.0],
+                {}
+            ).addTo(map_8f1fd552e3d93098911c38807c290e03);
+        
+    
+            var div_icon_2f94a788780b5e5143a499cc0822429c = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 20pt; font-family:Avenir, sans-serif; color:#1d3c34; background-color:#AAD3DF; text-align: left\"\u003eEnergibr\u00f8nner\u003cbr\u003eregistrert i NGU\u003cbr\u003eGRANADA per\u003cbr\u003e\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [285, 30]});
+            marker_5c9ed13919bccc2440f8428e344543b7.setIcon(div_icon_2f94a788780b5e5143a499cc0822429c);
+        
+    
+            var marker_20bb2f630861400d31208a6195e7b954 = L.marker(
+                [69.3, 2.0],
+                {}
+            ).addTo(map_8f1fd552e3d93098911c38807c290e03);
+        
+    
+            var div_icon_7a2e2342cc54ffde7e28180df7855797 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 40pt; font-family:Avenir, sans-serif; color:#1d3c34; background-color:#AAD3DF; text-align: left\"\u003e1991\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [120, 30]});
+            marker_20bb2f630861400d31208a6195e7b954.setIcon(div_icon_7a2e2342cc54ffde7e28180df7855797);
+        
+    
+            var marker_09780aee44c3355a78f5d13a3f6a2eba = L.marker(
+                [57.0, 21.5],
+                {}
+            ).addTo(map_8f1fd552e3d93098911c38807c290e03);
+        
+    
+            var div_icon_54b83a82ca0572ea9f220237da6ee7b1 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"color:#1d3c34; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003e Br\u00f8nnborer:\u003cbr\u003eV\u00e6r\u00e5s Br\u00f8nnboring\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [280, 30]});
+            marker_09780aee44c3355a78f5d13a3f6a2eba.setIcon(div_icon_54b83a82ca0572ea9f220237da6ee7b1);
+        
+    
+            var marker_ac8e221706ddfd1e3188d15464556fed = L.marker(
+                [57.0, 31.6],
+                {}
+            ).addTo(map_8f1fd552e3d93098911c38807c290e03);
+        
+    
+            var div_icon_e9777c2ddc50e6f7686c6731286201b9 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"color:#1d3c34; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003eAntall:\u003cbr\u003e0\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [70, 30]});
+            marker_ac8e221706ddfd1e3188d15464556fed.setIcon(div_icon_e9777c2ddc50e6f7686c6731286201b9);
+        
+    
+            var marker_f05d71a1d77abf19739f93bf5f6fa4a5 = L.marker(
+                [57.0, 34.3],
+                {}
+            ).addTo(map_8f1fd552e3d93098911c38807c290e03);
+        
+    
+            var div_icon_016a4bb2a2c7b92f28d70c8260b2d9be = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"color:#1d3c34; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003e\u00d8kning:\u003cbr\u003e- %\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [70, 30]});
+            marker_f05d71a1d77abf19739f93bf5f6fa4a5.setIcon(div_icon_016a4bb2a2c7b92f28d70c8260b2d9be);
+        
+    
+            var circle_marker_ac07bbac2933604a582911d7f50d4150 = L.circleMarker(
+                [59.94022580078126, 10.789508199869829],
+                {"bubblingMouseEvents": true, "color": "#1d3c34", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1d3c34", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.01, "stroke": true, "weight": 3}
+            ).addTo(map_8f1fd552e3d93098911c38807c290e03);
+        
+    
+            var marker_2b884319ba6ca83d9e1b007667b57972 = L.marker(
+                [71.0, 2.0],
+                {}
+            ).addTo(map_8f1fd552e3d93098911c38807c290e03);
+        
+    
+            var div_icon_6e903a3025ccdfa6db1e553df98736d4 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 20pt; font-family:Avenir, sans-serif; color:#1d3c34; background-color:#AAD3DF; text-align: left\"\u003eEnergibr\u00f8nner\u003cbr\u003eregistrert i NGU\u003cbr\u003eGRANADA per\u003cbr\u003e\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [285, 30]});
+            marker_2b884319ba6ca83d9e1b007667b57972.setIcon(div_icon_6e903a3025ccdfa6db1e553df98736d4);
+        
+    
+            var marker_dbdd743f8b5fd78f2c61a64fa508a9f4 = L.marker(
+                [69.3, 2.0],
+                {}
+            ).addTo(map_8f1fd552e3d93098911c38807c290e03);
+        
+    
+            var div_icon_9a0f45162fd47ed3e8038944aabd8f8a = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 40pt; font-family:Avenir, sans-serif; color:#1d3c34; background-color:#AAD3DF; text-align: left\"\u003e1992\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [120, 30]});
+            marker_dbdd743f8b5fd78f2c61a64fa508a9f4.setIcon(div_icon_9a0f45162fd47ed3e8038944aabd8f8a);
+        
+    
+            var marker_bcadc1d92528e4071547bb59ea5e8644 = L.marker(
+                [57.0, 21.5],
+                {}
+            ).addTo(map_8f1fd552e3d93098911c38807c290e03);
+        
+    
+            var div_icon_7a3567839ab66fba820cdfaa08007ba3 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"color:#1d3c34; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003e Br\u00f8nnborer:\u003cbr\u003eV\u00e6r\u00e5s Br\u00f8nnboring\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [280, 30]});
+            marker_bcadc1d92528e4071547bb59ea5e8644.setIcon(div_icon_7a3567839ab66fba820cdfaa08007ba3);
+        
+    
+            var marker_4c77bf9621973f39de68aa5eed0c9383 = L.marker(
+                [57.0, 31.6],
+                {}
+            ).addTo(map_8f1fd552e3d93098911c38807c290e03);
+        
+    
+            var div_icon_82655f8d01b8ef28cc682b49f10bbeed = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"color:#1d3c34; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003eAntall:\u003cbr\u003e1\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [70, 30]});
+            marker_4c77bf9621973f39de68aa5eed0c9383.setIcon(div_icon_82655f8d01b8ef28cc682b49f10bbeed);
+        
+    
+            var marker_f3cb9e17f80178ca86bc3d4ee3936bcc = L.marker(
+                [57.0, 34.3],
+                {}
+            ).addTo(map_8f1fd552e3d93098911c38807c290e03);
+        
+    
+            var div_icon_de473fb4ef05336e92506f99b51c9e6c = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"color:#1d3c34; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003e\u00d8kning:\u003cbr\u003e- %\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [70, 30]});
+            marker_f3cb9e17f80178ca86bc3d4ee3936bcc.setIcon(div_icon_de473fb4ef05336e92506f99b51c9e6c);
+        
+    
+            var marker_4cadf7bd1873abd67afa513d736785f2 = L.marker(
+                [71.0, 2.0],
+                {}
+            ).addTo(map_8f1fd552e3d93098911c38807c290e03);
+        
+    
+            var div_icon_7094ca7a072512512bdecd874f9bcb2c = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 20pt; font-family:Avenir, sans-serif; color:#1d3c34; background-color:#AAD3DF; text-align: left\"\u003eEnergibr\u00f8nner\u003cbr\u003eregistrert i NGU\u003cbr\u003eGRANADA per\u003cbr\u003e\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [285, 30]});
+            marker_4cadf7bd1873abd67afa513d736785f2.setIcon(div_icon_7094ca7a072512512bdecd874f9bcb2c);
+        
+    
+            var marker_83a7c1ee07728abf684833e28b974312 = L.marker(
+                [69.3, 2.0],
+                {}
+            ).addTo(map_8f1fd552e3d93098911c38807c290e03);
+        
+    
+            var div_icon_42ed224ab7dca8094234d41457cbfb39 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 40pt; font-family:Avenir, sans-serif; color:#1d3c34; background-color:#AAD3DF; text-align: left\"\u003e1993\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [120, 30]});
+            marker_83a7c1ee07728abf684833e28b974312.setIcon(div_icon_42ed224ab7dca8094234d41457cbfb39);
+        
+    
+            var marker_5ac8d14c6db6c8e2507867dba9196209 = L.marker(
+                [57.0, 21.5],
+                {}
+            ).addTo(map_8f1fd552e3d93098911c38807c290e03);
+        
+    
+            var div_icon_9c0c10de8de183c63cbc024cfc7fd908 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"color:#1d3c34; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003e Br\u00f8nnborer:\u003cbr\u003eV\u00e6r\u00e5s Br\u00f8nnboring\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [280, 30]});
+            marker_5ac8d14c6db6c8e2507867dba9196209.setIcon(div_icon_9c0c10de8de183c63cbc024cfc7fd908);
+        
+    
+            var marker_b270ad472de80d4d80d3fb51b5d6b49d = L.marker(
+                [57.0, 31.6],
+                {}
+            ).addTo(map_8f1fd552e3d93098911c38807c290e03);
+        
+    
+            var div_icon_920d791dc665b24cac5cd1e0f7812e6b = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"color:#1d3c34; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003eAntall:\u003cbr\u003e1\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [70, 30]});
+            marker_b270ad472de80d4d80d3fb51b5d6b49d.setIcon(div_icon_920d791dc665b24cac5cd1e0f7812e6b);
+        
+    
+            var marker_d447120bfa5e82bf5a9d4a0b8cdbbf65 = L.marker(
+                [57.0, 34.3],
+                {}
+            ).addTo(map_8f1fd552e3d93098911c38807c290e03);
+        
+    
+            var div_icon_c9a214a93989745f44f6b6655c2cc410 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"color:#1d3c34; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003e\u00d8kning:\u003cbr\u003e0 %\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [70, 30]});
+            marker_d447120bfa5e82bf5a9d4a0b8cdbbf65.setIcon(div_icon_c9a214a93989745f44f6b6655c2cc410);
+        
+    
+            var marker_2a1d427441a8fee90b9e8fe570bc5c3e = L.marker(
+                [71.0, 2.0],
+                {}
+            ).addTo(map_8f1fd552e3d93098911c38807c290e03);
+        
+    
+            var div_icon_d0e2909df74a2951e167b20cd186d4e4 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 20pt; font-family:Avenir, sans-serif; color:#1d3c34; background-color:#AAD3DF; text-align: left\"\u003eEnergibr\u00f8nner\u003cbr\u003eregistrert i NGU\u003cbr\u003eGRANADA per\u003cbr\u003e\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [285, 30]});
+            marker_2a1d427441a8fee90b9e8fe570bc5c3e.setIcon(div_icon_d0e2909df74a2951e167b20cd186d4e4);
+        
+    
+            var marker_1894fbbe72b802b98a91a192b2f3d6ae = L.marker(
+                [69.3, 2.0],
+                {}
+            ).addTo(map_8f1fd552e3d93098911c38807c290e03);
+        
+    
+            var div_icon_83d34e473dd44a32cba5208df479a264 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 40pt; font-family:Avenir, sans-serif; color:#1d3c34; background-color:#AAD3DF; text-align: left\"\u003e1994\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [120, 30]});
+            marker_1894fbbe72b802b98a91a192b2f3d6ae.setIcon(div_icon_83d34e473dd44a32cba5208df479a264);
+        
+    
+            var marker_b7bd3689592daafa50d8d1daeb847fa1 = L.marker(
+                [57.0, 21.5],
+                {}
+            ).addTo(map_8f1fd552e3d93098911c38807c290e03);
+        
+    
+            var div_icon_55a6a73aed6b8b0d35a0fb951ee09a7e = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"color:#1d3c34; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003e Br\u00f8nnborer:\u003cbr\u003eV\u00e6r\u00e5s Br\u00f8nnboring\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [280, 30]});
+            marker_b7bd3689592daafa50d8d1daeb847fa1.setIcon(div_icon_55a6a73aed6b8b0d35a0fb951ee09a7e);
+        
+    
+            var marker_4c9ab145a889b04f360d94540830c5a2 = L.marker(
+                [57.0, 31.6],
+                {}
+            ).addTo(map_8f1fd552e3d93098911c38807c290e03);
+        
+    
+            var div_icon_0201df7f505364e848744904d3fe64e8 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"color:#1d3c34; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003eAntall:\u003cbr\u003e1\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [70, 30]});
+            marker_4c9ab145a889b04f360d94540830c5a2.setIcon(div_icon_0201df7f505364e848744904d3fe64e8);
+        
+    
+            var marker_59def02b04b58e5ca1afdca9087cc170 = L.marker(
+                [57.0, 34.3],
+                {}
+            ).addTo(map_8f1fd552e3d93098911c38807c290e03);
+        
+    
+            var div_icon_d8a0ce6ff03c45685b8df35617e16f81 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"color:#1d3c34; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003e\u00d8kning:\u003cbr\u003e0 %\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [70, 30]});
+            marker_59def02b04b58e5ca1afdca9087cc170.setIcon(div_icon_d8a0ce6ff03c45685b8df35617e16f81);
+        
+    
+            var marker_80ca52f5c31fb8e57554aa0b021ddfe4 = L.marker(
+                [71.0, 2.0],
+                {}
+            ).addTo(map_8f1fd552e3d93098911c38807c290e03);
+        
+    
+            var div_icon_23d426410e5e8098ea884bf1b8fdef0a = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 20pt; font-family:Avenir, sans-serif; color:#1d3c34; background-color:#AAD3DF; text-align: left\"\u003eEnergibr\u00f8nner\u003cbr\u003eregistrert i NGU\u003cbr\u003eGRANADA per\u003cbr\u003e\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [285, 30]});
+            marker_80ca52f5c31fb8e57554aa0b021ddfe4.setIcon(div_icon_23d426410e5e8098ea884bf1b8fdef0a);
+        
+    
+            var marker_c7211f0627fc439aaf2803ec4b472adc = L.marker(
+                [69.3, 2.0],
+                {}
+            ).addTo(map_8f1fd552e3d93098911c38807c290e03);
+        
+    
+            var div_icon_630fd07ac3ee3cb64f0a8e2089aee26a = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 40pt; font-family:Avenir, sans-serif; color:#1d3c34; background-color:#AAD3DF; text-align: left\"\u003e1995\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [120, 30]});
+            marker_c7211f0627fc439aaf2803ec4b472adc.setIcon(div_icon_630fd07ac3ee3cb64f0a8e2089aee26a);
+        
+    
+            var marker_812ea0da17bdf4a934a0d6cacd3462c9 = L.marker(
+                [57.0, 21.5],
+                {}
+            ).addTo(map_8f1fd552e3d93098911c38807c290e03);
+        
+    
+            var div_icon_b40d1359cd9d4ab30f5bf4cbfed21635 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"color:#1d3c34; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003e Br\u00f8nnborer:\u003cbr\u003eV\u00e6r\u00e5s Br\u00f8nnboring\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [280, 30]});
+            marker_812ea0da17bdf4a934a0d6cacd3462c9.setIcon(div_icon_b40d1359cd9d4ab30f5bf4cbfed21635);
+        
+    
+            var marker_8eb9616dcbf2e7b98af329f3b00a0c54 = L.marker(
+                [57.0, 31.6],
+                {}
+            ).addTo(map_8f1fd552e3d93098911c38807c290e03);
+        
+    
+            var div_icon_d86fd1712433c614c870ed52932a8ff7 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"color:#1d3c34; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003eAntall:\u003cbr\u003e1\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [70, 30]});
+            marker_8eb9616dcbf2e7b98af329f3b00a0c54.setIcon(div_icon_d86fd1712433c614c870ed52932a8ff7);
+        
+    
+            var marker_94eab985aca296f419997447964c72e1 = L.marker(
+                [57.0, 34.3],
+                {}
+            ).addTo(map_8f1fd552e3d93098911c38807c290e03);
+        
+    
+            var div_icon_c2da414f1789d8eb8f64989ce3227bdc = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"color:#1d3c34; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003e\u00d8kning:\u003cbr\u003e0 %\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [70, 30]});
+            marker_94eab985aca296f419997447964c72e1.setIcon(div_icon_c2da414f1789d8eb8f64989ce3227bdc);
+        
+    
+            var marker_bae9f8b2d1e6b1e8f993b7aca1fd0ab9 = L.marker(
+                [71.0, 2.0],
+                {}
+            ).addTo(map_8f1fd552e3d93098911c38807c290e03);
+        
+    
+            var div_icon_7c68d307c6562d726dbe43263af055ed = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 20pt; font-family:Avenir, sans-serif; color:#1d3c34; background-color:#AAD3DF; text-align: left\"\u003eEnergibr\u00f8nner\u003cbr\u003eregistrert i NGU\u003cbr\u003eGRANADA per\u003cbr\u003e\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [285, 30]});
+            marker_bae9f8b2d1e6b1e8f993b7aca1fd0ab9.setIcon(div_icon_7c68d307c6562d726dbe43263af055ed);
+        
+    
+            var marker_a1d2cc0f98e2253ec95bb466ac049a9c = L.marker(
+                [69.3, 2.0],
+                {}
+            ).addTo(map_8f1fd552e3d93098911c38807c290e03);
+        
+    
+            var div_icon_48ebbcf18d23b45dd212b11620302308 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 40pt; font-family:Avenir, sans-serif; color:#1d3c34; background-color:#AAD3DF; text-align: left\"\u003e1996\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [120, 30]});
+            marker_a1d2cc0f98e2253ec95bb466ac049a9c.setIcon(div_icon_48ebbcf18d23b45dd212b11620302308);
+        
+    
+            var marker_0a1bae805bfee378c34aaf7ed759a029 = L.marker(
+                [57.0, 21.5],
+                {}
+            ).addTo(map_8f1fd552e3d93098911c38807c290e03);
+        
+    
+            var div_icon_7c2d4cd9fdbf826ee4f34c1817ae680e = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"color:#1d3c34; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003e Br\u00f8nnborer:\u003cbr\u003eV\u00e6r\u00e5s Br\u00f8nnboring\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [280, 30]});
+            marker_0a1bae805bfee378c34aaf7ed759a029.setIcon(div_icon_7c2d4cd9fdbf826ee4f34c1817ae680e);
+        
+    
+            var marker_144fe851e70abbe6a78e0ecd6c34ea2e = L.marker(
+                [57.0, 31.6],
+                {}
+            ).addTo(map_8f1fd552e3d93098911c38807c290e03);
+        
+    
+            var div_icon_10830320e0a803227fb7ff22c4bc3922 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"color:#1d3c34; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003eAntall:\u003cbr\u003e1\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [70, 30]});
+            marker_144fe851e70abbe6a78e0ecd6c34ea2e.setIcon(div_icon_10830320e0a803227fb7ff22c4bc3922);
+        
+    
+            var marker_dee1fcb9aa6c79cce5d2bc57150316c5 = L.marker(
+                [57.0, 34.3],
+                {}
+            ).addTo(map_8f1fd552e3d93098911c38807c290e03);
+        
+    
+            var div_icon_0c200e7595516e8a2334cc17b53e7e17 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"color:#1d3c34; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003e\u00d8kning:\u003cbr\u003e0 %\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [70, 30]});
+            marker_dee1fcb9aa6c79cce5d2bc57150316c5.setIcon(div_icon_0c200e7595516e8a2334cc17b53e7e17);
+        
+    
+            var circle_marker_eb8e8d894810fc0ce5c983603dbd5a8b = L.circleMarker(
+                [59.944329500325466, 10.9635727001953],
+                {"bubblingMouseEvents": true, "color": "#1d3c34", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1d3c34", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.01, "stroke": true, "weight": 3}
+            ).addTo(map_8f1fd552e3d93098911c38807c290e03);
+        
+    
+            var marker_1ef0d30c6a764d5b6df9773e2b2f3740 = L.marker(
+                [71.0, 2.0],
+                {}
+            ).addTo(map_8f1fd552e3d93098911c38807c290e03);
+        
+    
+            var div_icon_3afebd73dc50f5290cfb31daa6194810 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 20pt; font-family:Avenir, sans-serif; color:#1d3c34; background-color:#AAD3DF; text-align: left\"\u003eEnergibr\u00f8nner\u003cbr\u003eregistrert i NGU\u003cbr\u003eGRANADA per\u003cbr\u003e\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [285, 30]});
+            marker_1ef0d30c6a764d5b6df9773e2b2f3740.setIcon(div_icon_3afebd73dc50f5290cfb31daa6194810);
+        
+    
+            var marker_1598274c27ce883a630dab484857ac46 = L.marker(
+                [69.3, 2.0],
+                {}
+            ).addTo(map_8f1fd552e3d93098911c38807c290e03);
+        
+    
+            var div_icon_c29e952c7df0e485d995e2bf6a995879 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 40pt; font-family:Avenir, sans-serif; color:#1d3c34; background-color:#AAD3DF; text-align: left\"\u003e1997\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [120, 30]});
+            marker_1598274c27ce883a630dab484857ac46.setIcon(div_icon_c29e952c7df0e485d995e2bf6a995879);
+        
+    
+            var marker_6a0975f8d4a4f6e1946d99a15ea011e2 = L.marker(
+                [57.0, 21.5],
+                {}
+            ).addTo(map_8f1fd552e3d93098911c38807c290e03);
+        
+    
+            var div_icon_cad83d81fb7ff91de636e49f483322bc = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"color:#1d3c34; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003e Br\u00f8nnborer:\u003cbr\u003eV\u00e6r\u00e5s Br\u00f8nnboring\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [280, 30]});
+            marker_6a0975f8d4a4f6e1946d99a15ea011e2.setIcon(div_icon_cad83d81fb7ff91de636e49f483322bc);
+        
+    
+            var marker_5555b230742b4e63b6bb11949e001144 = L.marker(
+                [57.0, 31.6],
+                {}
+            ).addTo(map_8f1fd552e3d93098911c38807c290e03);
+        
+    
+            var div_icon_41bbd98011127877f9f4c44543217836 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"color:#1d3c34; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003eAntall:\u003cbr\u003e2\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [70, 30]});
+            marker_5555b230742b4e63b6bb11949e001144.setIcon(div_icon_41bbd98011127877f9f4c44543217836);
+        
+    
+            var marker_57868354b1e3b46878d8fd9760c316b6 = L.marker(
+                [57.0, 34.3],
+                {}
+            ).addTo(map_8f1fd552e3d93098911c38807c290e03);
+        
+    
+            var div_icon_57f04b3873ae64d4653e29f460adf0b5 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"color:#1d3c34; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003e\u00d8kning:\u003cbr\u003e100 %\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [70, 30]});
+            marker_57868354b1e3b46878d8fd9760c316b6.setIcon(div_icon_57f04b3873ae64d4653e29f460adf0b5);
+        
+</script>
+</html>

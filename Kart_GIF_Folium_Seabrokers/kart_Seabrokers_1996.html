@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8997d491b6126c96cc6d7a289de789bb {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_8997d491b6126c96cc6d7a289de789bb" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_8997d491b6126c96cc6d7a289de789bb = L.map(
+                "map_8997d491b6126c96cc6d7a289de789bb",
+                {
+                    center: [65.0, 18.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: false,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ef96b779f885c37a6189c0da0494f82e = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_8997d491b6126c96cc6d7a289de789bb);
+        
+    
+            var marker_09fe7981fcad3ca7ac979860153559b1 = L.marker(
+                [71.0, 2.0],
+                {}
+            ).addTo(map_8997d491b6126c96cc6d7a289de789bb);
+        
+    
+            var div_icon_09ec150e8d958a58c475447867a85bd7 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 20pt; font-family:Avenir, sans-serif; color:#1d3c34; background-color:#AAD3DF; text-align: left\"\u003eEnergibr\u00f8nner\u003cbr\u003eregistrert i NGU\u003cbr\u003eGRANADA per\u003cbr\u003e\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [285, 30]});
+            marker_09fe7981fcad3ca7ac979860153559b1.setIcon(div_icon_09ec150e8d958a58c475447867a85bd7);
+        
+    
+            var marker_a5185ffea48e50a2a4970ac8c1aef6f7 = L.marker(
+                [69.3, 2.0],
+                {}
+            ).addTo(map_8997d491b6126c96cc6d7a289de789bb);
+        
+    
+            var div_icon_47085e118a1d82d02b40559498678c49 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 40pt; font-family:Avenir, sans-serif; color:#1d3c34; background-color:#AAD3DF; text-align: left\"\u003e1995\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [120, 30]});
+            marker_a5185ffea48e50a2a4970ac8c1aef6f7.setIcon(div_icon_47085e118a1d82d02b40559498678c49);
+        
+    
+            var marker_5ea652b73898e658e08d2f8934361933 = L.marker(
+                [57.0, 21.5],
+                {}
+            ).addTo(map_8997d491b6126c96cc6d7a289de789bb);
+        
+    
+            var div_icon_c35fc462fbec4b05fd28d148334a1a93 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"color:#1d3c34; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003e Br\u00f8nnborer:\u003cbr\u003eSeabrokers GeoEnergi\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [280, 30]});
+            marker_5ea652b73898e658e08d2f8934361933.setIcon(div_icon_c35fc462fbec4b05fd28d148334a1a93);
+        
+    
+            var marker_7f7403f3e098135cca417d3271865511 = L.marker(
+                [57.0, 31.6],
+                {}
+            ).addTo(map_8997d491b6126c96cc6d7a289de789bb);
+        
+    
+            var div_icon_6cd2f260b88de58ae68afad87d77c307 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"color:#1d3c34; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003eAntall:\u003cbr\u003e0\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [70, 30]});
+            marker_7f7403f3e098135cca417d3271865511.setIcon(div_icon_6cd2f260b88de58ae68afad87d77c307);
+        
+    
+            var marker_4910fe62e339902056e76b3a9c1c4318 = L.marker(
+                [57.0, 34.3],
+                {}
+            ).addTo(map_8997d491b6126c96cc6d7a289de789bb);
+        
+    
+            var div_icon_37beda625a9ca41c879e75045f2fc27d = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"color:#1d3c34; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003e\u00d8kning:\u003cbr\u003e- %\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [70, 30]});
+            marker_4910fe62e339902056e76b3a9c1c4318.setIcon(div_icon_37beda625a9ca41c879e75045f2fc27d);
+        
+    
+            var circle_marker_75e00fdaa5a0418530622e1f0c17d602 = L.circleMarker(
+                [59.94847790039057, 10.654173600260378],
+                {"bubblingMouseEvents": true, "color": "#1d3c34", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1d3c34", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.01, "stroke": true, "weight": 3}
+            ).addTo(map_8997d491b6126c96cc6d7a289de789bb);
+        
+    
+            var circle_marker_25fbd33737fc6f69caf14d72ab9c6a25 = L.circleMarker(
+                [59.94824990071618, 10.655164900716159],
+                {"bubblingMouseEvents": true, "color": "#1d3c34", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1d3c34", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.01, "stroke": true, "weight": 3}
+            ).addTo(map_8997d491b6126c96cc6d7a289de789bb);
+        
+    
+            var circle_marker_adcb2a668b23d1fdfcf0625132dc1eb5 = L.circleMarker(
+                [59.94812930013018, 10.65045009928383],
+                {"bubblingMouseEvents": true, "color": "#1d3c34", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1d3c34", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.01, "stroke": true, "weight": 3}
+            ).addTo(map_8997d491b6126c96cc6d7a289de789bb);
+        
+    
+            var circle_marker_5abbe71c155668a117cc0340225cc31c = L.circleMarker(
+                [59.947694700520856, 10.650016699218781],
+                {"bubblingMouseEvents": true, "color": "#1d3c34", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1d3c34", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.01, "stroke": true, "weight": 3}
+            ).addTo(map_8997d491b6126c96cc6d7a289de789bb);
+        
+    
+            var circle_marker_7523b6ed52fee203a3e70f0ccdf1e852 = L.circleMarker(
+                [59.94896610026046, 10.651046800130189],
+                {"bubblingMouseEvents": true, "color": "#1d3c34", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1d3c34", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.01, "stroke": true, "weight": 3}
+            ).addTo(map_8997d491b6126c96cc6d7a289de789bb);
+        
+    
+            var circle_marker_671b82ff252b4427919fa7ce022d24e5 = L.circleMarker(
+                [59.949138300781215, 10.653794700520848],
+                {"bubblingMouseEvents": true, "color": "#1d3c34", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1d3c34", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.01, "stroke": true, "weight": 3}
+            ).addTo(map_8997d491b6126c96cc6d7a289de789bb);
+        
+    
+            var circle_marker_5148ddf492810407bf53f5ca6a82a735 = L.circleMarker(
+                [59.947907900390646, 10.652354799804698],
+                {"bubblingMouseEvents": true, "color": "#1d3c34", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1d3c34", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.01, "stroke": true, "weight": 3}
+            ).addTo(map_8997d491b6126c96cc6d7a289de789bb);
+        
+    
+            var circle_marker_963990cf93258398ccf739af72f62980 = L.circleMarker(
+                [59.949149500325575, 10.652900000000045],
+                {"bubblingMouseEvents": true, "color": "#1d3c34", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1d3c34", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.01, "stroke": true, "weight": 3}
+            ).addTo(map_8997d491b6126c96cc6d7a289de789bb);
+        
+    
+            var circle_marker_5a55a7f467346791ded0ca2bb4805ce9 = L.circleMarker(
+                [59.94699529947911, 10.673453400065114],
+                {"bubblingMouseEvents": true, "color": "#1d3c34", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1d3c34", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.01, "stroke": true, "weight": 3}
+            ).addTo(map_8997d491b6126c96cc6d7a289de789bb);
+        
+    
+            var circle_marker_8922d59a3e28f5bf0105af56042b1c31 = L.circleMarker(
+                [59.94830490071615, 10.652929599609365],
+                {"bubblingMouseEvents": true, "color": "#1d3c34", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1d3c34", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.01, "stroke": true, "weight": 3}
+            ).addTo(map_8997d491b6126c96cc6d7a289de789bb);
+        
+    
+            var marker_4694b7c1161ca0cebf5057334bcbf772 = L.marker(
+                [71.0, 2.0],
+                {}
+            ).addTo(map_8997d491b6126c96cc6d7a289de789bb);
+        
+    
+            var div_icon_c149620ae59bea72aaaa17be5f460660 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 20pt; font-family:Avenir, sans-serif; color:#1d3c34; background-color:#AAD3DF; text-align: left\"\u003eEnergibr\u00f8nner\u003cbr\u003eregistrert i NGU\u003cbr\u003eGRANADA per\u003cbr\u003e\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [285, 30]});
+            marker_4694b7c1161ca0cebf5057334bcbf772.setIcon(div_icon_c149620ae59bea72aaaa17be5f460660);
+        
+    
+            var marker_48554b6fcc4f0189e1f4df637cd79d5e = L.marker(
+                [69.3, 2.0],
+                {}
+            ).addTo(map_8997d491b6126c96cc6d7a289de789bb);
+        
+    
+            var div_icon_a26cd0dbbbf967fb91c938de502dc514 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 40pt; font-family:Avenir, sans-serif; color:#1d3c34; background-color:#AAD3DF; text-align: left\"\u003e1996\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [120, 30]});
+            marker_48554b6fcc4f0189e1f4df637cd79d5e.setIcon(div_icon_a26cd0dbbbf967fb91c938de502dc514);
+        
+    
+            var marker_22dadf51ad37fcf69e8dfb31a11751b0 = L.marker(
+                [57.0, 21.5],
+                {}
+            ).addTo(map_8997d491b6126c96cc6d7a289de789bb);
+        
+    
+            var div_icon_2b588d7572782ebdbd26022702a427b4 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"color:#1d3c34; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003e Br\u00f8nnborer:\u003cbr\u003eSeabrokers GeoEnergi\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [280, 30]});
+            marker_22dadf51ad37fcf69e8dfb31a11751b0.setIcon(div_icon_2b588d7572782ebdbd26022702a427b4);
+        
+    
+            var marker_ce0fa9d15eb0b1e99716202801699108 = L.marker(
+                [57.0, 31.6],
+                {}
+            ).addTo(map_8997d491b6126c96cc6d7a289de789bb);
+        
+    
+            var div_icon_343b12b5b874f509960193eff9dd1b12 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"color:#1d3c34; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003eAntall:\u003cbr\u003e10\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [70, 30]});
+            marker_ce0fa9d15eb0b1e99716202801699108.setIcon(div_icon_343b12b5b874f509960193eff9dd1b12);
+        
+    
+            var marker_47e2dd399b0946f4340114e390abfaa7 = L.marker(
+                [57.0, 34.3],
+                {}
+            ).addTo(map_8997d491b6126c96cc6d7a289de789bb);
+        
+    
+            var div_icon_7442e790531ee5d372865ff7cf2281bd = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"color:#1d3c34; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003e\u00d8kning:\u003cbr\u003e- %\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [70, 30]});
+            marker_47e2dd399b0946f4340114e390abfaa7.setIcon(div_icon_7442e790531ee5d372865ff7cf2281bd);
+        
+</script>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_5b12838cbb6b30a289de0c319cedbf7c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_5b12838cbb6b30a289de0c319cedbf7c" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_5b12838cbb6b30a289de0c319cedbf7c = L.map(
+                "map_5b12838cbb6b30a289de0c319cedbf7c",
+                {
+                    center: [65.0, 18.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: false,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7ba2da636a6fc43aca53bebc27b1829e = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_5b12838cbb6b30a289de0c319cedbf7c);
+        
+    
+            var marker_cdbeceac625ab659458c12d62b5fd719 = L.marker(
+                [71.0, 2.0],
+                {}
+            ).addTo(map_5b12838cbb6b30a289de0c319cedbf7c);
+        
+    
+            var div_icon_52494ae48e2e170f6d4dbfe85ba7ecd7 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 20pt; font-family:Avenir, sans-serif; color:#1d3c34; background-color:#AAD3DF; text-align: left\"\u003eEnergibr\u00f8nner\u003cbr\u003eregistrert i NGU\u003cbr\u003eGRANADA per\u003cbr\u003e\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [285, 30]});
+            marker_cdbeceac625ab659458c12d62b5fd719.setIcon(div_icon_52494ae48e2e170f6d4dbfe85ba7ecd7);
+        
+    
+            var marker_dab02603cd04ef34a07494dcbed404e7 = L.marker(
+                [69.3, 2.0],
+                {}
+            ).addTo(map_5b12838cbb6b30a289de0c319cedbf7c);
+        
+    
+            var div_icon_5286106f94b17824af07b52880da6ec0 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 40pt; font-family:Avenir, sans-serif; color:#1d3c34; background-color:#AAD3DF; text-align: left\"\u003e1991\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [120, 30]});
+            marker_dab02603cd04ef34a07494dcbed404e7.setIcon(div_icon_5286106f94b17824af07b52880da6ec0);
+        
+    
+            var marker_f3749cdd0171d8614e40f4922defb84a = L.marker(
+                [58.5, 20.6],
+                {}
+            ).addTo(map_5b12838cbb6b30a289de0c319cedbf7c);
+        
+    
+            var div_icon_41e6c8b1923731a490a294f436642525 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"color:#1d3c34; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003e \u003cbr\u003e \u0026#11044\u003c/div\u003e\u003cdiv style=\"color:#48a23f; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003e \u0026#11044\u003c/div\u003e\u003cdiv style=\"color:#ffa300; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003e \u0026#11044\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [50, 30]});
+            marker_f3749cdd0171d8614e40f4922defb84a.setIcon(div_icon_41e6c8b1923731a490a294f436642525);
+        
+    
+            var marker_f2025e54da5551fe4f7ab76bcbf258fa = L.marker(
+                [58.5, 21.5],
+                {}
+            ).addTo(map_5b12838cbb6b30a289de0c319cedbf7c);
+        
+    
+            var div_icon_ad1741a62e7b1557258d599f8418aabd = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"color:#1d3c34; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003e Type anlegg:\u003cbr\u003eEnkelthusholdning:\u003cbr\u003eSt\u00f8rre anlegg:\u003cbr\u003eAndre\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [280, 30]});
+            marker_f2025e54da5551fe4f7ab76bcbf258fa.setIcon(div_icon_ad1741a62e7b1557258d599f8418aabd);
+        
+    
+            var marker_f79eb6dacba32ca9313e967b8d6c8de8 = L.marker(
+                [58.5, 31.8],
+                {}
+            ).addTo(map_5b12838cbb6b30a289de0c319cedbf7c);
+        
+    
+            var div_icon_02c24138b012bbb94cd2ea9aeff77144 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"color:#1d3c34; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003eAntall:\u003cbr\u003e0\u003cbr\u003e0\u003cbr\u003e0\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [70, 30]});
+            marker_f79eb6dacba32ca9313e967b8d6c8de8.setIcon(div_icon_02c24138b012bbb94cd2ea9aeff77144);
+        
+    
+            var marker_7a8611eef059fe5dd6dbd87acbb896bf = L.marker(
+                [58.5, 34.3],
+                {}
+            ).addTo(map_5b12838cbb6b30a289de0c319cedbf7c);
+        
+    
+            var div_icon_19a714e6a366239e4f3db119896ce4e2 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"color:#1d3c34; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003e\u00d8kning:\u003cbr\u003e- %\u003cbr\u003e- %\u003cbr\u003e- %\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [70, 30]});
+            marker_7a8611eef059fe5dd6dbd87acbb896bf.setIcon(div_icon_19a714e6a366239e4f3db119896ce4e2);
+        
+</script>
+</html>
