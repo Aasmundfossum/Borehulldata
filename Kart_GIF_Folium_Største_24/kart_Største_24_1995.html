@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ccef945ab735517629f561f9c2f8274e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_ccef945ab735517629f561f9c2f8274e" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_ccef945ab735517629f561f9c2f8274e = L.map(
+                "map_ccef945ab735517629f561f9c2f8274e",
+                {
+                    center: [65.0, 18.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: false,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_41b408fb957c3e4f754566bcb96339f5 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_ccef945ab735517629f561f9c2f8274e);
+        
+    
+            var circle_marker_05aba506e19586faa518275f7e5fe173 = L.circleMarker(
+                [59.2595277994792, 10.38536529947919],
+                {"bubblingMouseEvents": true, "color": "#4421af", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#4421af", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.01, "stroke": true, "weight": 3}
+            ).addTo(map_ccef945ab735517629f561f9c2f8274e);
+        
+    
+            var circle_marker_7c41302f2f71fac22098c0753889ad17 = L.circleMarker(
+                [59.94022580078126, 10.789508199869829],
+                {"bubblingMouseEvents": true, "color": "#e14b31", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#e14b31", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.01, "stroke": true, "weight": 3}
+            ).addTo(map_ccef945ab735517629f561f9c2f8274e);
+        
+    
+            var marker_48eab2e3d27e858becb7268179e2d44a = L.marker(
+                [71.0, 2.0],
+                {}
+            ).addTo(map_ccef945ab735517629f561f9c2f8274e);
+        
+    
+            var div_icon_9d5ec2798dd30fd88136ca799a447a3f = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 20pt; font-family:Avenir, sans-serif; color:#1d3c34; background-color:#F0EEE8; text-align: left\"\u003eEnergibr\u00f8nner\u003cbr\u003eregistrert i NGU\u003cbr\u003eGRANADA per\u003cbr\u003e\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [200, 30]});
+            marker_48eab2e3d27e858becb7268179e2d44a.setIcon(div_icon_9d5ec2798dd30fd88136ca799a447a3f);
+        
+    
+            var marker_127d3cfaf87608c0ed6651e049233b64 = L.marker(
+                [69.3, 2.0],
+                {}
+            ).addTo(map_ccef945ab735517629f561f9c2f8274e);
+        
+    
+            var div_icon_10c697df000fc496ef4f9ef0c3f1839a = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 40pt; font-family:Avenir, sans-serif; color:#1d3c34; background-color:#F0EEE8; text-align: left\"\u003e1992\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [120, 30]});
+            marker_127d3cfaf87608c0ed6651e049233b64.setIcon(div_icon_10c697df000fc496ef4f9ef0c3f1839a);
+        
+    
+            var marker_bef994ec4a919bc27c879d0909616266 = L.marker(
+                [62.5, 20.6],
+                {}
+            ).addTo(map_ccef945ab735517629f561f9c2f8274e);
+        
+    
+            var div_icon_0daa78f2ba1d6b63c2f0f91e8f8f8cd1 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"color:#1d3c34; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003e \u003cbr\u003e \u0026#11044\u003c/div\u003e\u003cdiv style=\"color:#48a23f; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003e \u0026#11044\u003c/div\u003e\u003cdiv style=\"color:#ffa300; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003e \u0026#11044\u003c/div\u003e\u003cdiv style=\"color:#7c1158; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003e \u0026#11044\u003c/div\u003e\u003cdiv style=\"color:#4421af; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003e \u0026#11044\u003c/div\u003e\u003cdiv style=\"color:#1a53ff; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003e \u0026#11044\u003c/div\u003e\u003cdiv style=\"color:#dc0ab4; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003e \u0026#11044\u003c/div\u003e\u003cdiv style=\"color:#6cd4c5; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003e \u0026#11044\u003c/div\u003e\u003cdiv style=\"color:#e14b31; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003e \u0026#11044\u003c/div\u003e\u003cdiv style=\"color:#ede15b; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003e \u0026#11044\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [50, 30]});
+            marker_bef994ec4a919bc27c879d0909616266.setIcon(div_icon_0daa78f2ba1d6b63c2f0f91e8f8f8cd1);
+        
+    
+            var marker_57314d727da5ca8c3548209ff62a2644 = L.marker(
+                [62.5, 21.5],
+                {}
+            ).addTo(map_ccef945ab735517629f561f9c2f8274e);
+        
+    
+            var div_icon_a1dc1144e282613e7dbb81133ba1b956 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"color:#1d3c34; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003e Br\u00f8nnborer:\u003cbr\u003eB\u00e5sum Boring:\u003cbr\u003eRototec:\u003cbr\u003eKraft Energi \u0026 Br\u00f8nnboring:\u003cbr\u003eAarsleff Boring:\u003cbr\u003eSeabrokers GeoEnergi:\u003cbr\u003eVestnorsk Brunnboring:\u003cbr\u003eUniversal Br\u00f8nnboring:\u003cbr\u003eFollo Br\u00f8nnboring:\u003cbr\u003eV\u00e6r\u00e5s Br\u00f8nnboring:\u003cbr\u003eBr\u00f8drene Myhre:\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [280, 30]});
+            marker_57314d727da5ca8c3548209ff62a2644.setIcon(div_icon_a1dc1144e282613e7dbb81133ba1b956);
+        
+    
+            var marker_285df8e831dd3f14b560b4dd10cb7c77 = L.marker(
+                [62.5, 31.8],
+                {}
+            ).addTo(map_ccef945ab735517629f561f9c2f8274e);
+        
+    
+            var div_icon_5d28d1a8ebe326fbdd601c2fe26ef449 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"color:#1d3c34; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003eAntall:\u003cbr\u003e0\u003cbr\u003e0\u003cbr\u003e0\u003cbr\u003e0\u003cbr\u003e1\u003cbr\u003e0\u003cbr\u003e0\u003cbr\u003e0\u003cbr\u003e1\u003cbr\u003e0\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [70, 30]});
+            marker_285df8e831dd3f14b560b4dd10cb7c77.setIcon(div_icon_5d28d1a8ebe326fbdd601c2fe26ef449);
+        
+    
+            var marker_89c009919b6e97a3cef6e96c3032dd4d = L.marker(
+                [62.5, 34.3],
+                {}
+            ).addTo(map_ccef945ab735517629f561f9c2f8274e);
+        
+    
+            var div_icon_4c6581a88e992d7ca41c6370fbf74608 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"color:#1d3c34; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003e\u00d8kning:\u003cbr\u003e- %\u003cbr\u003e- %\u003cbr\u003e- %\u003cbr\u003e- %\u003cbr\u003e- %\u003cbr\u003e- %\u003cbr\u003e- %\u003cbr\u003e- %\u003cbr\u003e- %\u003cbr\u003e- %\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [70, 30]});
+            marker_89c009919b6e97a3cef6e96c3032dd4d.setIcon(div_icon_4c6581a88e992d7ca41c6370fbf74608);
+        
+    
+            var circle_marker_46bb1d32a829535f989fae8dc25c3b50 = L.circleMarker(
+                [60.17237470052078, 10.328653300781298],
+                {"bubblingMouseEvents": true, "color": "#ede15b", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#ede15b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.01, "stroke": true, "weight": 3}
+            ).addTo(map_ccef945ab735517629f561f9c2f8274e);
+        
+    
+            var marker_237edf811f27db7218f7acefeef7a137 = L.marker(
+                [71.0, 2.0],
+                {}
+            ).addTo(map_ccef945ab735517629f561f9c2f8274e);
+        
+    
+            var div_icon_e88bb14c026c4310df81c4aa03d573b8 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 20pt; font-family:Avenir, sans-serif; color:#1d3c34; background-color:#F0EEE8; text-align: left\"\u003eEnergibr\u00f8nner\u003cbr\u003eregistrert i NGU\u003cbr\u003eGRANADA per\u003cbr\u003e\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [200, 30]});
+            marker_237edf811f27db7218f7acefeef7a137.setIcon(div_icon_e88bb14c026c4310df81c4aa03d573b8);
+        
+    
+            var marker_a40e43e5a33ce03ed287a614c45a15bd = L.marker(
+                [69.3, 2.0],
+                {}
+            ).addTo(map_ccef945ab735517629f561f9c2f8274e);
+        
+    
+            var div_icon_21c0d21cb6ff98ad8b5f1dd590c15bcf = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 40pt; font-family:Avenir, sans-serif; color:#1d3c34; background-color:#F0EEE8; text-align: left\"\u003e1993\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [120, 30]});
+            marker_a40e43e5a33ce03ed287a614c45a15bd.setIcon(div_icon_21c0d21cb6ff98ad8b5f1dd590c15bcf);
+        
+    
+            var marker_9992db4e5a3d70b9a1da453721747dce = L.marker(
+                [62.5, 20.6],
+                {}
+            ).addTo(map_ccef945ab735517629f561f9c2f8274e);
+        
+    
+            var div_icon_d0c963fde44b8d0168ab17b1f6b6bcdd = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"color:#1d3c34; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003e \u003cbr\u003e \u0026#11044\u003c/div\u003e\u003cdiv style=\"color:#48a23f; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003e \u0026#11044\u003c/div\u003e\u003cdiv style=\"color:#ffa300; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003e \u0026#11044\u003c/div\u003e\u003cdiv style=\"color:#7c1158; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003e \u0026#11044\u003c/div\u003e\u003cdiv style=\"color:#4421af; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003e \u0026#11044\u003c/div\u003e\u003cdiv style=\"color:#1a53ff; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003e \u0026#11044\u003c/div\u003e\u003cdiv style=\"color:#dc0ab4; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003e \u0026#11044\u003c/div\u003e\u003cdiv style=\"color:#6cd4c5; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003e \u0026#11044\u003c/div\u003e\u003cdiv style=\"color:#e14b31; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003e \u0026#11044\u003c/div\u003e\u003cdiv style=\"color:#ede15b; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003e \u0026#11044\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [50, 30]});
+            marker_9992db4e5a3d70b9a1da453721747dce.setIcon(div_icon_d0c963fde44b8d0168ab17b1f6b6bcdd);
+        
+    
+            var marker_a0d2054e71960bf9114a2eb2565c9d04 = L.marker(
+                [62.5, 21.5],
+                {}
+            ).addTo(map_ccef945ab735517629f561f9c2f8274e);
+        
+    
+            var div_icon_bd854aab53619838e7bcb48c8b8618db = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"color:#1d3c34; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003e Br\u00f8nnborer:\u003cbr\u003eB\u00e5sum Boring:\u003cbr\u003eRototec:\u003cbr\u003eKraft Energi \u0026 Br\u00f8nnboring:\u003cbr\u003eAarsleff Boring:\u003cbr\u003eSeabrokers GeoEnergi:\u003cbr\u003eVestnorsk Brunnboring:\u003cbr\u003eUniversal Br\u00f8nnboring:\u003cbr\u003eFollo Br\u00f8nnboring:\u003cbr\u003eV\u00e6r\u00e5s Br\u00f8nnboring:\u003cbr\u003eBr\u00f8drene Myhre:\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [280, 30]});
+            marker_a0d2054e71960bf9114a2eb2565c9d04.setIcon(div_icon_bd854aab53619838e7bcb48c8b8618db);
+        
+    
+            var marker_965ee729f551172a76f21a2777cfa802 = L.marker(
+                [62.5, 31.8],
+                {}
+            ).addTo(map_ccef945ab735517629f561f9c2f8274e);
+        
+    
+            var div_icon_48f52fdb0ea2bb1b2f93996015c29319 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"color:#1d3c34; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003eAntall:\u003cbr\u003e0\u003cbr\u003e0\u003cbr\u003e0\u003cbr\u003e0\u003cbr\u003e1\u003cbr\u003e0\u003cbr\u003e0\u003cbr\u003e0\u003cbr\u003e1\u003cbr\u003e1\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [70, 30]});
+            marker_965ee729f551172a76f21a2777cfa802.setIcon(div_icon_48f52fdb0ea2bb1b2f93996015c29319);
+        
+    
+            var marker_25e093a92e11658c584ac328fa47471f = L.marker(
+                [62.5, 34.3],
+                {}
+            ).addTo(map_ccef945ab735517629f561f9c2f8274e);
+        
+    
+            var div_icon_d74a59b41546376b0b3ce92bb41c3d08 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"color:#1d3c34; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003e\u00d8kning:\u003cbr\u003e- %\u003cbr\u003e- %\u003cbr\u003e- %\u003cbr\u003e- %\u003cbr\u003e0 %\u003cbr\u003e- %\u003cbr\u003e- %\u003cbr\u003e- %\u003cbr\u003e0 %\u003cbr\u003e- %\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [70, 30]});
+            marker_25e093a92e11658c584ac328fa47471f.setIcon(div_icon_d74a59b41546376b0b3ce92bb41c3d08);
+        
+    
+            var circle_marker_c46df82d982c7c7daf7dcf0f14e50bc8 = L.circleMarker(
+                [59.95435799967447, 10.512177099609403],
+                {"bubblingMouseEvents": true, "color": "#ede15b", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#ede15b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.01, "stroke": true, "weight": 3}
+            ).addTo(map_ccef945ab735517629f561f9c2f8274e);
+        
+    
+            var marker_d554d9db8e7490b2d24fcebb839eafd6 = L.marker(
+                [71.0, 2.0],
+                {}
+            ).addTo(map_ccef945ab735517629f561f9c2f8274e);
+        
+    
+            var div_icon_cbe9f8addff1258db739a301b38f37d0 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 20pt; font-family:Avenir, sans-serif; color:#1d3c34; background-color:#F0EEE8; text-align: left\"\u003eEnergibr\u00f8nner\u003cbr\u003eregistrert i NGU\u003cbr\u003eGRANADA per\u003cbr\u003e\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [200, 30]});
+            marker_d554d9db8e7490b2d24fcebb839eafd6.setIcon(div_icon_cbe9f8addff1258db739a301b38f37d0);
+        
+    
+            var marker_32dafb8cef1dd4d2a8138d14b758a1e2 = L.marker(
+                [69.3, 2.0],
+                {}
+            ).addTo(map_ccef945ab735517629f561f9c2f8274e);
+        
+    
+            var div_icon_674f91bd3dc5d7ec374fc7f0905129e3 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 40pt; font-family:Avenir, sans-serif; color:#1d3c34; background-color:#F0EEE8; text-align: left\"\u003e1994\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [120, 30]});
+            marker_32dafb8cef1dd4d2a8138d14b758a1e2.setIcon(div_icon_674f91bd3dc5d7ec374fc7f0905129e3);
+        
+    
+            var marker_f3fc00f847b523f9881e41df01f6c035 = L.marker(
+                [62.5, 20.6],
+                {}
+            ).addTo(map_ccef945ab735517629f561f9c2f8274e);
+        
+    
+            var div_icon_c9d0b9fa111f78a9cb91d9b56b5a6be0 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"color:#1d3c34; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003e \u003cbr\u003e \u0026#11044\u003c/div\u003e\u003cdiv style=\"color:#48a23f; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003e \u0026#11044\u003c/div\u003e\u003cdiv style=\"color:#ffa300; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003e \u0026#11044\u003c/div\u003e\u003cdiv style=\"color:#7c1158; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003e \u0026#11044\u003c/div\u003e\u003cdiv style=\"color:#4421af; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003e \u0026#11044\u003c/div\u003e\u003cdiv style=\"color:#1a53ff; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003e \u0026#11044\u003c/div\u003e\u003cdiv style=\"color:#dc0ab4; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003e \u0026#11044\u003c/div\u003e\u003cdiv style=\"color:#6cd4c5; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003e \u0026#11044\u003c/div\u003e\u003cdiv style=\"color:#e14b31; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003e \u0026#11044\u003c/div\u003e\u003cdiv style=\"color:#ede15b; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003e \u0026#11044\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [50, 30]});
+            marker_f3fc00f847b523f9881e41df01f6c035.setIcon(div_icon_c9d0b9fa111f78a9cb91d9b56b5a6be0);
+        
+    
+            var marker_74a689b31846a904c60766176e111b00 = L.marker(
+                [62.5, 21.5],
+                {}
+            ).addTo(map_ccef945ab735517629f561f9c2f8274e);
+        
+    
+            var div_icon_9b8595ccd7133fc521d8f8c6876d15f8 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"color:#1d3c34; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003e Br\u00f8nnborer:\u003cbr\u003eB\u00e5sum Boring:\u003cbr\u003eRototec:\u003cbr\u003eKraft Energi \u0026 Br\u00f8nnboring:\u003cbr\u003eAarsleff Boring:\u003cbr\u003eSeabrokers GeoEnergi:\u003cbr\u003eVestnorsk Brunnboring:\u003cbr\u003eUniversal Br\u00f8nnboring:\u003cbr\u003eFollo Br\u00f8nnboring:\u003cbr\u003eV\u00e6r\u00e5s Br\u00f8nnboring:\u003cbr\u003eBr\u00f8drene Myhre:\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [280, 30]});
+            marker_74a689b31846a904c60766176e111b00.setIcon(div_icon_9b8595ccd7133fc521d8f8c6876d15f8);
+        
+    
+            var marker_c8a3abd7ef445f78e0b562bee86a8a40 = L.marker(
+                [62.5, 31.8],
+                {}
+            ).addTo(map_ccef945ab735517629f561f9c2f8274e);
+        
+    
+            var div_icon_e8ddd977ccc5189fa22d912faafd8fbc = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"color:#1d3c34; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003eAntall:\u003cbr\u003e0\u003cbr\u003e0\u003cbr\u003e0\u003cbr\u003e0\u003cbr\u003e1\u003cbr\u003e0\u003cbr\u003e0\u003cbr\u003e0\u003cbr\u003e1\u003cbr\u003e2\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [70, 30]});
+            marker_c8a3abd7ef445f78e0b562bee86a8a40.setIcon(div_icon_e8ddd977ccc5189fa22d912faafd8fbc);
+        
+    
+            var marker_893abebddbfee42c146502b963d7db11 = L.marker(
+                [62.5, 34.3],
+                {}
+            ).addTo(map_ccef945ab735517629f561f9c2f8274e);
+        
+    
+            var div_icon_9a2589cea42db8026216706982126f60 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"color:#1d3c34; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003e\u00d8kning:\u003cbr\u003e- %\u003cbr\u003e- %\u003cbr\u003e- %\u003cbr\u003e- %\u003cbr\u003e0 %\u003cbr\u003e- %\u003cbr\u003e- %\u003cbr\u003e- %\u003cbr\u003e0 %\u003cbr\u003e100 %\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [70, 30]});
+            marker_893abebddbfee42c146502b963d7db11.setIcon(div_icon_9a2589cea42db8026216706982126f60);
+        
+    
+            var marker_128a45c5a413a6e6880534c703f127af = L.marker(
+                [71.0, 2.0],
+                {}
+            ).addTo(map_ccef945ab735517629f561f9c2f8274e);
+        
+    
+            var div_icon_265953116d9610e8b006fb1c7c10d3ec = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 20pt; font-family:Avenir, sans-serif; color:#1d3c34; background-color:#F0EEE8; text-align: left\"\u003eEnergibr\u00f8nner\u003cbr\u003eregistrert i NGU\u003cbr\u003eGRANADA per\u003cbr\u003e\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [200, 30]});
+            marker_128a45c5a413a6e6880534c703f127af.setIcon(div_icon_265953116d9610e8b006fb1c7c10d3ec);
+        
+    
+            var marker_529d55ae72da78da4bf53c09053cfbec = L.marker(
+                [69.3, 2.0],
+                {}
+            ).addTo(map_ccef945ab735517629f561f9c2f8274e);
+        
+    
+            var div_icon_736d75011aea932cfb5a29b6cce4199b = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 40pt; font-family:Avenir, sans-serif; color:#1d3c34; background-color:#F0EEE8; text-align: left\"\u003e1995\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [120, 30]});
+            marker_529d55ae72da78da4bf53c09053cfbec.setIcon(div_icon_736d75011aea932cfb5a29b6cce4199b);
+        
+    
+            var marker_e7a09044fc9c5f2f65e5a34c7ac9af38 = L.marker(
+                [62.5, 20.6],
+                {}
+            ).addTo(map_ccef945ab735517629f561f9c2f8274e);
+        
+    
+            var div_icon_aeae7a667be74e9362d982ed95974f44 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"color:#1d3c34; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003e \u003cbr\u003e \u0026#11044\u003c/div\u003e\u003cdiv style=\"color:#48a23f; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003e \u0026#11044\u003c/div\u003e\u003cdiv style=\"color:#ffa300; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003e \u0026#11044\u003c/div\u003e\u003cdiv style=\"color:#7c1158; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003e \u0026#11044\u003c/div\u003e\u003cdiv style=\"color:#4421af; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003e \u0026#11044\u003c/div\u003e\u003cdiv style=\"color:#1a53ff; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003e \u0026#11044\u003c/div\u003e\u003cdiv style=\"color:#dc0ab4; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003e \u0026#11044\u003c/div\u003e\u003cdiv style=\"color:#6cd4c5; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003e \u0026#11044\u003c/div\u003e\u003cdiv style=\"color:#e14b31; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003e \u0026#11044\u003c/div\u003e\u003cdiv style=\"color:#ede15b; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003e \u0026#11044\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [50, 30]});
+            marker_e7a09044fc9c5f2f65e5a34c7ac9af38.setIcon(div_icon_aeae7a667be74e9362d982ed95974f44);
+        
+    
+            var marker_6dfff09a6cc74bdb2679ae26c20d2697 = L.marker(
+                [62.5, 21.5],
+                {}
+            ).addTo(map_ccef945ab735517629f561f9c2f8274e);
+        
+    
+            var div_icon_d7eb9392ca65ce1ab8240f2a6d013c0a = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"color:#1d3c34; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003e Br\u00f8nnborer:\u003cbr\u003eB\u00e5sum Boring:\u003cbr\u003eRototec:\u003cbr\u003eKraft Energi \u0026 Br\u00f8nnboring:\u003cbr\u003eAarsleff Boring:\u003cbr\u003eSeabrokers GeoEnergi:\u003cbr\u003eVestnorsk Brunnboring:\u003cbr\u003eUniversal Br\u00f8nnboring:\u003cbr\u003eFollo Br\u00f8nnboring:\u003cbr\u003eV\u00e6r\u00e5s Br\u00f8nnboring:\u003cbr\u003eBr\u00f8drene Myhre:\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [280, 30]});
+            marker_6dfff09a6cc74bdb2679ae26c20d2697.setIcon(div_icon_d7eb9392ca65ce1ab8240f2a6d013c0a);
+        
+    
+            var marker_2b0a005b1f71e4d70718a83ac77ba3a9 = L.marker(
+                [62.5, 31.8],
+                {}
+            ).addTo(map_ccef945ab735517629f561f9c2f8274e);
+        
+    
+            var div_icon_b0ae0875315abaed545adae351ea1c86 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"color:#1d3c34; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003eAntall:\u003cbr\u003e0\u003cbr\u003e0\u003cbr\u003e0\u003cbr\u003e0\u003cbr\u003e1\u003cbr\u003e0\u003cbr\u003e0\u003cbr\u003e0\u003cbr\u003e1\u003cbr\u003e2\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [70, 30]});
+            marker_2b0a005b1f71e4d70718a83ac77ba3a9.setIcon(div_icon_b0ae0875315abaed545adae351ea1c86);
+        
+    
+            var marker_e9c582024bc8e1515cef2a300424eddb = L.marker(
+                [62.5, 34.3],
+                {}
+            ).addTo(map_ccef945ab735517629f561f9c2f8274e);
+        
+    
+            var div_icon_eb7f9cf159907f530a8436dd71f7ff91 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"color:#1d3c34; font-size: 14pt; font-family:Avenir, sans-serif; background-color:#F0EEE8; text-align: left\"\u003e\u00d8kning:\u003cbr\u003e- %\u003cbr\u003e- %\u003cbr\u003e- %\u003cbr\u003e- %\u003cbr\u003e0 %\u003cbr\u003e- %\u003cbr\u003e- %\u003cbr\u003e- %\u003cbr\u003e0 %\u003cbr\u003e0 %\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [70, 30]});
+            marker_e9c582024bc8e1515cef2a300424eddb.setIcon(div_icon_eb7f9cf159907f530a8436dd71f7ff91);
+        
+</script>
+</html>
